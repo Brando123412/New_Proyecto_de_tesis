@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 using UnityEngine.UI;
 using TMPro;
 
-[CreateAssetMenu(fileName = "ChannelManager", menuName = "ScriptableObjects/Audio/ChannelManager", order = 1)]
+[CreateAssetMenu(fileName = "ChannelManager", menuName = "ScriptableObjects/ChannelManager", order = 1)]
 public class ChannelManager : ScriptableObject
 {
     [SerializeField] string channelVolume;
