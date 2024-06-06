@@ -7,7 +7,7 @@ public enum TypeObjetosSegurity {Casco, ZapatoSeguridad, ChallecoSeguridad, Mame
 public class GameController : MonoBehaviour
 {
     [SerializeField] SOHerramientas soHerramientas;
-    private void Start()
+    private void Awake()
     {
         soHerramientas.RetunrObject(Vector3.zero);
     }

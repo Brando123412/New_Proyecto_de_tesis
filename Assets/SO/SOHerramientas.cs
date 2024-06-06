@@ -11,9 +11,8 @@ public class SOHerramientas : ScriptableObject
     //public GameObject PrefabReferencia => prefabReferencia;
     public void RetunrObject(Vector3 positionSpanw)
     {
-        GameObject tmp = prefabReferencia;
+        GameObject tmp = Instantiate(prefabReferencia, positionSpanw, Quaternion.identity); 
         tmp.AddComponent<GrabInteractable>();
-        Instantiate(tmp,positionSpanw,Quaternion.identity);
     }
 
 }
