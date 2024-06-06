@@ -2,16 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEditor;
+using System;
 
-public class GameEventListeners : MonoBehaviour
+[Serializable]
+public class GameEventListeners
 {
-    public GameIntEvent gameIntEvent;
+    [SerializeField] private string nameEventListener;
+    [SerializeField] public GameIntEvent gameIntEvent;
     public UnityEvent<int> responde;
-    private void OnEnable()
+    public void OnEnable()
     {
         gameIntEvent.RegistryListaner(this);
     }
-    private void OnDisable()
+    public void OnDisable()
     {
         gameIntEvent.UnRegistryListaner(this);
     }
@@ -19,4 +23,5 @@ public class GameEventListeners : MonoBehaviour
     {
         responde?.Invoke(value);
     }
+
 }

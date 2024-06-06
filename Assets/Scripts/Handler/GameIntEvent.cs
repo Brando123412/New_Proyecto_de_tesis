@@ -7,12 +7,11 @@ using System;
 public class GameIntEvent : ScriptableObject
 {
     private List<GameEventListeners> gameListeners;
-
     public void Raise(int value)
     {
-        for (int i = 0; i < gameListeners.Count; i++)
+        foreach (var listener in gameListeners)
         {
-            gameListeners[i].OnRaiseNotified(value);
+            listener.OnRaiseNotified(value);
         }
     }
     public void RegistryListaner(GameEventListeners gameListener)
