@@ -2,29 +2,21 @@ using ScenesManager;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class GameManagerMenu : MonoBehaviour
+public class SceneControllerTesteo : MonoBehaviour
 {
     [Header("Scenes SO")]
-    [SerializeField] private SceneConfiguration scenePrueba;
-    [SerializeField] private SceneConfiguration sceneSelection;
-
+    [SerializeField] private SceneConfiguration sceneMenu;
     private void Start()
     {
         SceneGlobalManager.OnStartProgress?.Invoke();
     }
-    public void GoToSceneTest()
+    public void ReturnMenu()
     {
         SceneGlobalManager.OnFinishProgress?.Invoke();
-        SceneGlobalManager.Instance.LoadScene(scenePrueba);
+        SceneGlobalManager.Instance.LoadScene(sceneMenu);
     }
-    public void GoToSceneInstrucciones()
-    {
-        SceneGlobalManager.OnFinishProgress?.Invoke();
-        SceneGlobalManager.Instance.LoadScene(sceneSelection);
-    }
-    public void QuitApplication()           
+    public void QuitApplication()
     {
         Application.Quit();
     }
