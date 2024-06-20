@@ -6,7 +6,7 @@ using System;
 [CreateAssetMenu(fileName = "ScriptableObject", menuName = "ScriptableObjects/GameIntEvent", order = 1)]
 public class GameIntEvent : ScriptableObject
 {
-    private List<GameEventListeners> gameListeners;
+    private List<GameIntEventListeners> gameListeners;
     public void Raise(int value)
     {
         foreach (var listener in gameListeners)
@@ -14,11 +14,11 @@ public class GameIntEvent : ScriptableObject
             listener.OnRaiseNotified(value);
         }
     }
-    public void RegistryListaner(GameEventListeners gameListener)
+    public void RegistryListaner(GameIntEventListeners gameListener)
     {
         gameListeners.Add(gameListener);
     }
-    public void UnRegistryListaner(GameEventListeners gameListener)
+    public void UnRegistryListaner(GameIntEventListeners gameListener)
     {
         if (gameListeners.Contains(gameListener))
         {

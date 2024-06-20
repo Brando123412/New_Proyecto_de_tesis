@@ -6,22 +6,22 @@ using UnityEditor;
 using System;
 
 [Serializable]
-public class GameEventListeners
+public class GameEventListeners 
 {
     [SerializeField] private string nameEventListener;
-    [SerializeField] public GameIntEvent gameIntEvent;
-    public UnityEvent<int> responde;
+    public GameEvent gameEvent;
+    public UnityEvent responde;
     public void OnEnable()
     {
-        gameIntEvent.RegistryListaner(this);
+        gameEvent.RegistryListaner(this);
     }
     public void OnDisable()
     {
-        gameIntEvent.UnRegistryListaner(this);
+        gameEvent.UnRegistryListaner(this);
     }
-    public void OnRaiseNotified(int value)
+    public void OnRaiseNotified()
     {
-        responde?.Invoke(value);
+        responde?.Invoke();
     }
 
 }

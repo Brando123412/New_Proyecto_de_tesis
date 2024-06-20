@@ -1,4 +1,4 @@
-using ScenesManager;
+ using ScenesManager;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +9,8 @@ public class ControladorScenes : MonoBehaviour
 {
     [SerializeField] SceneConfiguration[] scenes;
     [SerializeField] PlayerPositionReferences playerPositionReferences;
-    [SerializeField] bool xd;
+    [SerializeField] private GameEvent[] controllerScenes;
+
     private void Start()
     {
         
@@ -35,6 +36,39 @@ public class ControladorScenes : MonoBehaviour
     public void positionUpdateType()
     {
         switch (playerPositionReferences.typeScenePlayer)
+        {
+            case TypeScene.Scene1:
+                controllerScenes[0].Raise();
+                break;
+            case TypeScene.Scene2:
+                controllerScenes[1].Raise();
+                break;
+            case TypeScene.Scene3:
+                controllerScenes[2].Raise();
+                break;
+            case TypeScene.Scene4:
+                controllerScenes[3].Raise();
+                break;
+            case TypeScene.Scene5:
+                controllerScenes[4].Raise();
+                break;
+            case TypeScene.Scene6:
+                controllerScenes[5].Raise();
+                break;
+            case TypeScene.Scene7:
+                controllerScenes[6].Raise();
+                break;
+        }
+    }
+
+
+}
+
+
+
+
+/*************
+ * switch (playerPositionReferences.typeScenePlayer)
         {
             case TypeScene.Scene1:
                 if (!IsSceneLoaded(scenes[0].SceneName))
@@ -277,5 +311,4 @@ public class ControladorScenes : MonoBehaviour
                 }
                 break;
         }
-    }
-}
+    }*/////////////
