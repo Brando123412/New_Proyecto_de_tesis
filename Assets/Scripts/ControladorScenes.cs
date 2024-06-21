@@ -12,6 +12,7 @@ public class ControladorScenes : MonoBehaviour
 
     private void Start()
     {
+        //controllerScenes[3].Raise();
     }
     private void Update()
     {
@@ -31,24 +32,31 @@ public class ControladorScenes : MonoBehaviour
         {
             case TypeScene.Scene1:
                 controllerScenes[0].Raise();
+                print("Scene1");
                 break;
             case TypeScene.Scene2:
                 controllerScenes[1].Raise();
+                print("Scene2");
                 break;
             case TypeScene.Scene3:
                 controllerScenes[2].Raise();
+                print("Scene3");
                 break;
             case TypeScene.Scene4:
                 controllerScenes[3].Raise();
+                print("Scene4");
                 break;
             case TypeScene.Scene5:
                 controllerScenes[4].Raise();
+                print("Scene5");
                 break;
             case TypeScene.Scene6:
                 controllerScenes[5].Raise();
+                print("Scene6");
                 break;
             case TypeScene.Scene7:
                 controllerScenes[6].Raise();
+                print("Scene7");
                 break;
         }
     }

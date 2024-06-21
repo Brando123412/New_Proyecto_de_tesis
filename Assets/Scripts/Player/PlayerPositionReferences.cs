@@ -34,12 +34,12 @@ public class PlayerPositionReferences : MonoBehaviour
             print("Scena5");
             typeScenePlayer = TypeScene.Scene5;
         }
-        else if (transform.position.z > -170 && transform.position.z <= -130)
+        else if (transform.position.z > -160 && transform.position.z <= -130)
         {
             print("Scena6");
             typeScenePlayer = TypeScene.Scene6;
         }
-        else if (transform.position.z > -200 && transform.position.z <= -170)
+        else if (transform.position.z > -190 && transform.position.z <= -160)
         {
             print("Scena7");
             typeScenePlayer = TypeScene.Scene7;
