@@ -17,10 +17,6 @@ public class SceneControllerInstrucciones : MonoBehaviour
         SceneGlobalManager.OnFinishProgress?.Invoke();
         SceneGlobalManager.Instance.LoadScene(sceneMenu);
     }
-    public void QuitApplication()
-    {
-        Application.Quit();
-    }
     public void SetObjectTrue(GameObject objectReferences)
     {
         objectReferences.SetActive(true);

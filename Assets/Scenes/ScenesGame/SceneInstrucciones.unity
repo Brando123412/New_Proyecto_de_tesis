@@ -443,6 +443,724 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34127016}
   m_CullTransparentMesh: 1
+--- !u!1 &97019065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97019067}
+  - component: {fileID: 97019066}
+  m_Layer: 0
+  m_Name: HandlersController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &97019066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97019065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde5bd83010d0f64fb75201543c92510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventListener:
+    SOEvent:
+    - nameEventListener: Scene1
+      gameEvent: {fileID: 11400000, guid: a04824b0b2f85e0489672b805cb80a4b, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene2
+      gameEvent: {fileID: 11400000, guid: 66b21f8aec48dd944a68bd136e211c60, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene3
+      gameEvent: {fileID: 11400000, guid: 9e0b50323f9769a4dbaf531c5bb50007, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene4
+      gameEvent: {fileID: 11400000, guid: 500c9eaece9d6184886331acffd4749c, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene5
+      gameEvent: {fileID: 11400000, guid: 500c9eaece9d6184886331acffd4749c, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene6
+      gameEvent: {fileID: 11400000, guid: 7adb3496620059842a15d8cab631c9bb, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - nameEventListener: Scene7
+      gameEvent: {fileID: 11400000, guid: ee8d3131bd1ca75419992b074ab24de7, type: 2}
+      responde:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: InvokeSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 812190267}
+            m_TargetAssemblyTypeName: ControladorScenes, Assembly-CSharp
+            m_MethodName: UnLoadSceneAdditive
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
+              m_ObjectArgumentAssemblyTypeName: ScenesManager.SceneConfiguration,
+                Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+--- !u!4 &97019067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97019065}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &103342819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,16 +1977,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf09f5f723ae8b418213b70fc2a2cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenes:
-  - {fileID: 11400000, guid: e82da661aac2f1b4e86601d4a012ae33, type: 2}
-  - {fileID: 11400000, guid: c0ec4026f5a78354d8623c52f19ce84b, type: 2}
-  - {fileID: 11400000, guid: eabfad4301172d9458be2ad3423a50a0, type: 2}
-  - {fileID: 11400000, guid: f6909400a3d1c154a9d7a4176527b43c, type: 2}
-  - {fileID: 11400000, guid: 4c70bf79cfbca9843898d237d372c802, type: 2}
-  - {fileID: 11400000, guid: 4292d26e071a4c94cb5d4ab659fc446a, type: 2}
-  - {fileID: 11400000, guid: c5758dbbf46d245459f90625d36f2bd0, type: 2}
   playerPositionReferences: {fileID: 125071655}
-  xd: 0
+  controllerScenes:
+  - {fileID: 11400000, guid: a04824b0b2f85e0489672b805cb80a4b, type: 2}
+  - {fileID: 11400000, guid: 66b21f8aec48dd944a68bd136e211c60, type: 2}
+  - {fileID: 11400000, guid: 9e0b50323f9769a4dbaf531c5bb50007, type: 2}
+  - {fileID: 11400000, guid: e4ae64539fbe304408f93f4cbd22114c, type: 2}
+  - {fileID: 11400000, guid: 500c9eaece9d6184886331acffd4749c, type: 2}
+  - {fileID: 11400000, guid: 7adb3496620059842a15d8cab631c9bb, type: 2}
+  - {fileID: 11400000, guid: ee8d3131bd1ca75419992b074ab24de7, type: 2}
 --- !u!4 &812190268
 Transform:
   m_ObjectHideFlags: 0
@@ -2842,3 +3559,4 @@ SceneRoots:
   - {fileID: 608776653}
   - {fileID: 323985450}
   - {fileID: 812190268}
+  - {fileID: 97019067}

@@ -7,24 +7,17 @@ using UnityEngine.SceneManagement;
 public enum TypeScene {SceneInstrucciones,ScenePrueba,SceneMenu,Scene1, Scene2, Scene3, Scene4, Scene5, Scene6, Scene7 };
 public class ControladorScenes : MonoBehaviour
 {
-    [SerializeField] SceneConfiguration[] scenes;
     [SerializeField] PlayerPositionReferences playerPositionReferences;
     [SerializeField] private GameEvent[] controllerScenes;
 
     private void Start()
     {
-        
     }
-
     private void Update()
     {
-        
     }
     public void InicialScenes()
     {
-        SceneGlobalManager.Instance.LoadScene(scenes[0]);
-        SceneGlobalManager.Instance.LoadScene(scenes[1]);
-        SceneGlobalManager.Instance.LoadScene(scenes[2]);
     }
 
     public bool IsSceneLoaded(string sceneName)
@@ -32,7 +25,6 @@ public class ControladorScenes : MonoBehaviour
         Scene scene = SceneManager.GetSceneByName(sceneName);
         return scene.isLoaded;
     }
-
     public void positionUpdateType()
     {
         switch (playerPositionReferences.typeScenePlayer)
@@ -61,6 +53,20 @@ public class ControladorScenes : MonoBehaviour
         }
     }
 
+    public void InvokeSceneAdditive(SceneConfiguration scene)
+    {
+        if (!IsSceneLoaded(scene.SceneName))
+        {
+            SceneGlobalManager.Instance.LoadScene(scene);
+        }
+    }
+    public void UnLoadSceneAdditive(SceneConfiguration scene)
+    {
+        if (IsSceneLoaded(scene.SceneName))
+        {
+            SceneGlobalManager.Instance.UnloadScene(scene);
+        }
+    }
 
 }
 
