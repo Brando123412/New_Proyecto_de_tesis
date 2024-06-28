@@ -15,4 +15,9 @@ public class GameControllerLoging : MonoBehaviour
         SceneGlobalManager.OnFinishProgress?.Invoke();
         SceneGlobalManager.Instance.LoadScene(MainScene);
     }
+
+    public void Hola()
+    {
+        print("Hola");
+    }
 }

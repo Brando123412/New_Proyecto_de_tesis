@@ -3,7 +3,42 @@ guid: d10362be5c80b2445a787d1044e4683e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: c1d69aef57157f241868cc998a884c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: adfb58b799e6ecf4cac1faf62129e6f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beige_wall_001
+    second: {fileID: 2100000, guid: cc245ccf3371e2d4a8bfdffba9622905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laminate_floor_02
+    second: {fileID: 2100000, guid: 95ba70c4279836a488619e05e66e4182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leather_white
+    second: {fileID: 2100000, guid: 0d30bc5c19abcc3499edb11335a159ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plywood
+    second: {fileID: 2100000, guid: 0868418e5b649994eb75ca733de84c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u041C\u0430\u0442\u0435\u0440\u0456\u0430\u043B"
+    second: {fileID: 2100000, guid: 9eb841380b397484ea68fd3f8c965c85, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
