@@ -68,6 +68,9 @@ public class ControladorScenes : MonoBehaviour
         if (!IsSceneLoaded(scene.SceneName))
         {
             SceneGlobalManager.Instance.LoadScene(scene);
+        }else if (IsSceneLoaded(scene.SceneName))
+        {
+            EnableGameObjects(scene);
         }
     }
     public void UnLoadSceneAdditive(SceneConfiguration scene)
@@ -76,6 +79,16 @@ public class ControladorScenes : MonoBehaviour
         {
             SceneGlobalManager.Instance.UnloadScene(scene);
         }
+    }
+
+    public void DisableGameObjects(SceneConfiguration scene)
+    {
+        scene.DisableGameObjects(this.gameObject);
+    }
+
+    public void EnableGameObjects(SceneConfiguration scene)
+    {
+        scene.EnableGameObjects(this.gameObject);
     }
 
 }

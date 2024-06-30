@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameControllerLoging : MonoBehaviour
 {
     [SerializeField] private SceneConfiguration MainScene;
+    [SerializeField] ChannelManager chanel1;
     private void Start()
     {
         SceneGlobalManager.OnStartProgress?.Invoke();

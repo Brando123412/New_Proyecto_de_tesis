@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: AudioMaster
   m_EditorClassIdentifier: 
   channelVolume: AudioMaster
-  currentVolume: 0
+  currentVolume: 0.16021983
   myMixer: {fileID: 24100000, guid: c1decc5a1d865b14da22f9ac5e795fb6, type: 2}
-  valueVolume: 50

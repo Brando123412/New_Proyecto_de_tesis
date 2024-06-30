@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isOn
+    m_ConditionEvent: IsOn
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1277006843887392393}
@@ -61,7 +61,7 @@ AnimatorController:
   m_Name: LeverController
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isOn
+  - m_Name: IsOn
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -144,7 +144,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isOn
+    m_ConditionEvent: IsOn
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1573403994802626423}
@@ -169,7 +169,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isOn
+    m_ConditionEvent: IsOn
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1277006843887392393}

@@ -33,7 +33,7 @@ namespace ScenesManager
             {
                 if (item == controller)
                     continue;
-
+                
                 item.SetActive(false);
             }
         }

@@ -10,10 +10,6 @@ public class DoorAnimatorController : MonoBehaviour
     [SerializeField] private bool isOpen1 = false;
     [SerializeField] private bool isOpen2 = false;
 
-    private void Start()
-    {
-        ToggleDoor1();
-    }
     public void ToggleDoor1()
     {
         isOpen1 = !isOpen1;
@@ -24,8 +20,5 @@ public class DoorAnimatorController : MonoBehaviour
     {
         isOpen2 = !isOpen2;
         door2.SetBool("IsOpen", isOpen2);
-    }
-    public void ToggleDoor3() {
-        print("Perro");
     }
 }
