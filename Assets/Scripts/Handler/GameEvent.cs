@@ -6,6 +6,15 @@ using UnityEngine;
 public class GameEvent : ScriptableObject
 {
     private List<GameEventListeners> gameListeners;
+    private void OnEnable()
+    {
+        gameListeners = new();
+    }
+
+    private void OnDisable()
+    {
+        gameListeners.Clear();
+    }
     public void Raise()
     {
         foreach (var listener in gameListeners)

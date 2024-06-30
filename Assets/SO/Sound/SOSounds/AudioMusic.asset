@@ -15,4 +15,4 @@ MonoBehaviour:
   channelVolume: AudioMusic
   currentVolume: 0
   myMixer: {fileID: 24100000, guid: c1decc5a1d865b14da22f9ac5e795fb6, type: 2}
-  valueVolume: 0
+  valueVolume: 50

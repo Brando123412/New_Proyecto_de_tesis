@@ -3,16 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManagerMenu : MonoBehaviour
 {
     [Header("Scenes SO")]
     [SerializeField] private SceneConfiguration scenePrueba;
     [SerializeField] private SceneConfiguration sceneSelection;
+    [SerializeField] Slider[] sliderButton;
+    [SerializeField] ChannelManager[] SOChanelManager;
 
     private void Start()
     {
         SceneGlobalManager.OnStartProgress?.Invoke();
+        SOManager();
     }
     public void GoToSceneTest()
     {
@@ -36,4 +40,16 @@ public class GameManagerMenu : MonoBehaviour
     {
         objectReferences.SetActive(false);
     }
+    public void SOManager()
+    {
+        print("Hola Perro");
+        sliderButton[0].value = SOChanelManager[0].currentVolume;
+        sliderButton[1].value = SOChanelManager[1].currentVolume;
+        sliderButton[2].value = SOChanelManager[2].currentVolume;
+    }
+    public void ButtonConfigAdelante(RectTransform panel)
+    {
+        panel.localPosition= new Vector3(0,0,-3);
+    }
+
 }
