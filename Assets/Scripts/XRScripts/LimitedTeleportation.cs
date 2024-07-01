@@ -3,7 +3,7 @@ using UnityEngine.Assertions;
 using UnityEngine.XR.Interaction.Toolkit;
 public class LimitedTeleportationProvider : TeleportationProvider
 {
-       [SerializeField]
+       /*[SerializeField]
         [Tooltip("The maximum teleportation distance allowed.")]
         private float maxTeleportDistance = 5f; // Distancia máxima permitida
 
@@ -78,6 +78,6 @@ public class LimitedTeleportationProvider : TeleportationProvider
             m_HasExclusiveLocomotion = false;
             validRequest = false;
             locomotionPhase = LocomotionPhase.Done;
-        }
+        }      */
     }
 
